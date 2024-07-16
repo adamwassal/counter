@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="machine">
+        <div>
+          <center>
+            <h1 style="color: wheat;">Counter</h1>
+            <input type="number" id="counter" placeholder="0" />
+            <br />
+            <button
+              onclick="plus()"
+            >
+              +
+            </button>
+            <button
+              onclick="minus()"
+            >
+              -
+            </button>
+            <br />
+            <button onclick="document.getElementById('counter').value = 0">
+              clear
+            </button>
+          </center>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
